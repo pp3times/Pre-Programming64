@@ -9,32 +9,41 @@ module.exports = {
 
     themeConfig: {
 
+        // Show github repo on nav : disabled
 
+        // repo: 'pp3times/Pre-Programming64',
+        // repoLabel: 'Pre-Programming64 Repo',
+
+        // Edit MD on github
+        docsRepo: 'pp3times/Pre-Programming64',
+        docsDir: 'docs',
+        editLinks: true,
+        editLinkText: '✏️ Edit Post !',
+
+        lastUpdated: '🕑',
         // Navigation Bar
         nav: [
             { text: 'Ejudge', link: 'https://ejudge.it.kmitl.ac.th/' },
-
         ],
 
         // Sidebar
         sidebar: [
             {
-                title: 'Test',
+                title: 'Overview',
                 collapsable: true,
                 children: [
-
-                    'test/test/test.md',	
+                    'ejudge.md',	
                 ]
             },
 
-            {
-                title: 'Test',
-                collapsable: true,
-                children: [
+            // {
+            //     title: 'Test',
+            //     collapsable: true,
+            //     children: [
 
-                    'test/test/test.md',	
-                ]
-            },
+            //         'test/test/test.md',	
+            //     ]
+            // },
 
         ],
 
