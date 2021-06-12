@@ -1,8 +1,8 @@
 module.exports = {
   title: "Pre-Programming 64",
   description: "Pre-Programming 64 for ITKMITL19",
-  base: "/",
-
+  base: "",
+  dest: "build",
   markdown: {
     lineNumbers: true,
   },
