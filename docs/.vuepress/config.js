@@ -1,7 +1,7 @@
 module.exports = {
   title: "Pre-Programming 64",
   description: "Pre-Programming 64 for ITKMITL19",
-  base: "/docs/.vuepress/dist/",
+  base: "/",
 
   markdown: {
     lineNumbers: true,
@@ -41,11 +41,11 @@ module.exports = {
         title: "Datatype & I/O",
         collapsable: true,
         children: [
-          "input.md",
-          "output.md",
-          "integer.md",
-          "float.md",
-          "string.md",
+          // "a/input.md",
+          // "output.md",
+          "datatype&IO/integer.md",
+          "datatype&IO/float.md",
+          "datatype&IO/string.md",
         ],
       },
 
