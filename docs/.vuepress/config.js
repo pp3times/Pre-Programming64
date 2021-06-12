@@ -1,7 +1,7 @@
 module.exports = {
   title: "Pre-Programming 64",
   description: "Pre-Programming 64 for ITKMITL19",
-  base: "/Prepro64-site/",
+  base: "/",
 
   markdown: {
     lineNumbers: true,
