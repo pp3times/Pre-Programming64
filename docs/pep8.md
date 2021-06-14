@@ -138,7 +138,7 @@ print(aaa + bbb)
 (พี่จะแทน space ด้วย * นะครับ จะได้เห็นกันง่ายๆ)
 
 ```python
-print("Hello World")*
+print("Hello PrePre64")*
 var_x,var_y = 12,21
 print(var_x,var_y)
 ```
