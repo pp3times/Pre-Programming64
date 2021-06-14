@@ -35,7 +35,7 @@ module.exports = {
       {
         title: "PEP8",
         collapsable: true,
-        children: ["docstring.md", "indentation.md", "comment.md"],
+        children: ["pep8.md"],
       },
       {
         title: "Datatype & I/O",
