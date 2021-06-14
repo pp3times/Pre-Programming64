@@ -68,7 +68,7 @@ var_x = pi()
 ดังนั้น หากจะแก้ให้ถูก จึงต้องใช้
 ```python
 import math
-var_x = math.pi()
+var_x = math.pi
 ```
 
 ---
