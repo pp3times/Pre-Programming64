@@ -11,10 +11,10 @@ Docstring คือ comment เพื่อบอกว่าฟังชั่�
 ตัวอย่างเช่น
 
 ```python
-""" DocString """
+"""DocString"""
 
 def main():
-  """ Function Docstring """
+  """Function Docstring"""
   print("Hello PrePro64")
 main()
 ```
@@ -31,10 +31,10 @@ StackOverflow Reference :  [https://stackoverflow.com/questions/729692/why-shoul
 
 
 ```python
-""" DocString """
+"""DocString"""
 
 def main():
-  """ Function Docstring """
+  """Function Docstring"""
   print("Hello Prepro64")
 main()
 # Final new line
