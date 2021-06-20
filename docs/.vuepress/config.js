@@ -53,6 +53,7 @@ module.exports = {
         children: [
           "datatype&IO/datatype.md",
           "datatype&IO/inout.md",
+          "datatype&IO/assign.md",
         ],
       },
 
