@@ -56,6 +56,7 @@ module.exports = {
           "datatype&IO/assign.md",
           "datatype&IO/stringformat.md",
           "datatype&IO/escapesequence.md",
+          "datatype&IO/arithmetic.md",
         ],
       },
 

@@ -49,7 +49,7 @@ print(type(height)) # <class 'float'>
 แบบที่ 2 คือ การประกาศตัวแปรหลายตัว และกำหนดค่า ค่าเดียว (One value to Multiple Variables) 
 
 ```python
-spider_man, iron_man, hulk = "Avengers"
+spider_man = iron_man = hulk = "Avengers"
 ```
 
 แบบที่ 3 คือการ unpack a collection หรือก็คือการ แยกข้อมูลที่เป็นชุดออกมาเช่น list , tuple และ อื่นๆ
