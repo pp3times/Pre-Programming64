@@ -30,10 +30,12 @@ module.exports = {
       {
         title: "Overview",
         collapsable: true,
-        children: ["ejudge.md"],
+        children: [
+          "ejudge.md"
+        ],
       },
       {
-        title: "Flowchart&Raptor",
+        title: "Flowchart & Raptor",
         collapsable: true,
         children: [
           "flowchart&raptor/flowchart.md",
@@ -59,15 +61,6 @@ module.exports = {
           "datatype&IO/arithmetic.md",
         ],
       },
-
-      // {
-      //     title: 'Test',
-      //     collapsable: true,
-      //     children: [
-
-      //         'test/test/test.md',
-      //     ]
-      // },
     ],
 
     // Search bar
