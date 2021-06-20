@@ -51,7 +51,8 @@ module.exports = {
         title: "Datatype & I/O",
         collapsable: true,
         children: [
-          "datatype&IO/datatype.md"
+          "datatype&IO/datatype.md",
+          "datatype&IO/inout.md",
         ],
       },
 
