@@ -48,20 +48,10 @@ module.exports = {
         ],
       },
       {
-        title: "TEST",
-        collapsable: true,
-        children: [
-          // "datatype&IO/integer.md",
-          // "datatype&IO/float.md"
-        ],
-      },
-      {
         title: "Datatype & I/O",
         collapsable: true,
         children: [
-          // "a/input.md",
-          // "output.md",
-          // "datatype&IO/string.md",
+          "datatype&IO/datatype.md"
         ],
       },
 
