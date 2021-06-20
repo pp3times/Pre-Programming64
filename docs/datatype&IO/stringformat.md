@@ -14,126 +14,48 @@ Format Sequence | คำอธิบาย |
 %x |จำนวนเต็มใน hex|
 %r |สำหรับการ Debug ข้อมูล|
 
-  <li>รับค่าแล้วนำไปใช้งานได้เลย</li>
-  Input คือ การรับค่าจาก User โดย default ข้อมูลจะเป็นชนิด string
-แต่ถ้าต้องการเปลี่ยนเป็นข้อมูลชนิดอื่น สามารถนำชนิดของข้อมูลมาครอบ input() ได้เลย
-	* ข้อความ ⇒ input()
-  * จำนวนเต็ม ⇒  int(input()) 
-  * จำนวนทศนิยม ⇒ float(input())
-  * ค่าความจริง ⇒ bool(input())
-สามารถตรวจสอบชนิดข้อมูลโดยใช้ type()
+> ตัวอย่างการใช้ % operator
 ```python
->>> var = input()
-520 #user input vaja 
->>> print(var) 
-520 #print ค่าของ Var 
->>> print(type(var)) 
-<class 'str'> #print ชนิดของข้อมูลที่อยู่ในตัวแปร var
+#1 
+money = 50 
+age = 18 
+print("money = %d, age = %d" % (money, age)) # money = 50, age = 18 
+print("money = %-5d, age = %d" % (money, 20)) # money = 50 age = 20 
+print("age = %f" % 20) # age = 20.000000
 
->>> var = int( input() 
-520 #user input Bayan 
->>> print(var) 
-520 #print ค่าของ var 
->>> print(type(var)) 
-<class 'int'> #print ชนิดของข้อมูลที่อยู่ในตัวแปร var
+#2
+pi_value = 3.14159265358979323846264338 
+print("Pi value = %.4f" % pi_value) # Pi value = 3.1416
 
->>> var = float(input()) 
-520 #user input ข้อมูลเข้ามา 
->>> print(var) 
-520.0 #print ค่าของ var 
->>> print(type(var)) 
-<class 'float'> #print ชนิดของข้อมูลที่อยู่ในตัวแปร var
+#3 
+planet = "Mars" 
+print("Hello %s!" % planet) # Hello Mars! 
+print("%-8s is next to Earth" % planet) # Mars is next to Earth
+
+```
+ 
+ ใน string formatting ด้านบนนั้นเป็น string formatting แบบเก่า ซึ่งใน python 2.7 นั้นได้เพิ่มวิธีการ format string แบบใหม่มา <br>
+ โดยการ format แบบใหม่นั้นสามารถจัดลำดับการ format ด้วยผู้ใช้ได้ง่ายขึ้นอีกด้วย เช่น
+
+```python
+print("{}".format("Hello World!")) # Hello World!
+
+print("Hi! my name is {1}, I love {@}.". format("PSIT", "Bob")), 
+# Hi! my name is Bob, I love PSIT.
+
+print("Hi! my name is {name}, I love {subject}.".format(subject="PSIT", name="Bob")) 
+# Hi! my name is Bob, I love PSIT.
 ```
 
-> จากโค้ด สร้างตัวแปรชื่อ var และรับ input ต่างชนิดกัน แต่เป็นข้อความเดียวกัน type ของข้อมูลก็จะเป็นไปตาม type ที่เรากำหนดไว้ตั้งแต่แรก
-
-## Input 
-<ul>
-  <li>รับค่าแล้วนำไปใช้งานได้เลย</li>
-	
-  > เช่น เรารับค่ามาแล้ว สามารถสั่ง print ได้เลย
-  
+***และยังมีแบบที่ใหม่กว่านี้!***
+โดยใน python 3.6 นั้นได้เพิ่ม Formatted string literals หรือที่เรียกกันว่า f-string ทำให้สามารถเข้าถึงได้อิสระกว่าเดิม เช่น
 ```python
->>> print(input())
->>> python
-python 
-	
->>> print(int(input()))
->>> 500
-500
+planet = "Mars!" 
+print(f"Hello {planet}") # Hello Mars!
 
->>> print(float(input()))
->>> 25.64
-25.64
-```
-  
-  <li>รับค่าแล้วนำไปเก็บเข้าตัวแปร</li>
-	
-  > คือการสร้างตัวแปรขึ้นมารับค่าที่ user input เข้ามา 
-  
-```python
->>> number = int(input())
->>> 200
->>> print(number)
-200
+name = "Bob" 
+age = 20 
+print(f"Hi! my name is {name}, I'm {age} years old.") 
+#Hi! my name is Bob, I'm 20 years old.
 
->>> float_1 = float(input())
->>> 11.12
->>> float_2 = float(input())
->>> 11.50
->>> ans = float_1 + float_2
->>> print(ans)
-22.62
 ```
-
-## Output
-	
-print() เป็นฟังก์ชันที่ใช้แสดงผล output ของ python สามารถแสดงผลค่าของตัวแปรหรือค่าต่าง ๆ ได้ตามต้องการ
-	
-<ul>
-  <li>print string</li>
-	
-  > ใช้เครื่องหมาย " " หรือ ' '
-  
-```python
->>> print("สู้ๆ")
-สู้ๆ
-	
->>> print("python สนุกมากกก")
-python สนุกมากกก
-```
-  
-  <li>print int</li>
-	
-  > ไม่มีเครื่องหมาย ' ' หรือ " " แต่ถ้าจะ print รวมกับ string สามารถใช้ %d แล้วใส่ %(ตัวแปร / ค่าคงที่) ตามหลังข้อความ 
-  
-```python
->>> print(520) 
-520
-	
->>> print(930)
-930
-	
->>> print("%d" %500)
-500
-	
->>> ans = 721 
->>> print("You are my %d" %ans)
-You are my 721
-```
-	
-<li>print float</li>
-	
-  > ไม่มีเครื่องหมาย ‘ ‘ หรือ “ “ แต่ถ้าจะ print รวมกับ string สามารถใช้ %f แล้วใส่ %(ตัวแปร / ค่าคงที่) ตามหลังข้อความ 
-  
-```python
->>> var = 3.143432
-	
->>> print(var)
-3.143432
-
->>> print("Is not pi? %f" %var)
-Is not pi? 3.143432
-```
- </ul>
-
