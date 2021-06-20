@@ -73,3 +73,18 @@ Flowchart หรือ ผังงาน คือ แผนผัง(Diagram) 
   ทำงานร่วมกับ Decision block ในการเช็คเงื่อนไข
      Ex. Flowchart ขั้นตอนการแพ็คพัสดุทีละ 20 กล่องก่อนจะนำไปส่งไปรษณีย์ โดยจะแพ็คทีละ 2 กล่อง
 </ol>
+
+# Raptor
+
+---
+
+## การติดโปรแกรม Raptor Flowchart ในระบบปฏิบัติการ Windows
+<ol>
+<li>ไปที่ลิงก์ https://raptor.martincarlisle.com/</li>
+<li>เลื่อนลงไปที่ Download RAPTOR แล้วกด Download latest version</li>
+<li>กด next</li>
+<li>เลือก folder ที่จะติดตั้งโปรแกรมแล้วกด next</li>
+<li>กด next อีกทีเพื่อยืนยันการติดตั้ง</li>
+<li>ติดตั้งเรียบร้อย กด close เพื่อปิด installer</li>
+<li>เลือก folder ที่จะติดตั้งโปรแกรมแล้วกด next</li> 
+</ol>
