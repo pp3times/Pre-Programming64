@@ -43,7 +43,9 @@ module.exports = {
       {
         title: "PEP8",
         collapsable: true,
-        children: ["pep8.md"],
+        children: [
+          // "pep8.md"
+        ],
       },
       {
         title: "TEST",
@@ -59,7 +61,7 @@ module.exports = {
         children: [
           // "a/input.md",
           // "output.md",
-          "datatype&IO/string.md",
+          // "datatype&IO/string.md",
         ],
       },
 
