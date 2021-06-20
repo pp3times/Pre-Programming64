@@ -59,5 +59,5 @@ print(f"Hi! my name is {name}, I'm {age} years old.")
 #Hi! my name is Bob, I'm 20 years old.
 
 ```
-แต่น่าเสียดายที่ E-Judge ของเรานั้นรองรับถึงแค่ python 3.4 เราจึงไม่สามารถใช้ f-string ได้ แต่ string formatting แบบใหม่ก็ช่วยเราได้เยอะอยู่เหมือนกันนะ!! น้อง ๆ สามารถอ่าน documentation ของการ format ได้ทั้งแบบเก่าและแบบใหม่ได้ที่[Python formatting guide](https://pyformat.info/)
+แต่น่าเสียดายที่ E-Judge ของเรานั้นรองรับถึงแค่ python 3.4 เราจึงไม่สามารถใช้ f-string ได้ แต่ string formatting แบบใหม่ก็ช่วยเราได้เยอะอยู่เหมือนกันนะ!! น้อง ๆ สามารถอ่าน documentation ของการ format ได้ทั้งแบบเก่าและแบบใหม่ได้ที่ [Python formatting guide](https://pyformat.info/)
 
