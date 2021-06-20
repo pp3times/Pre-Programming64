@@ -37,15 +37,87 @@
 ## Input 
 <ul>
   <li>รับค่าแล้วนำไปใช้งานได้เลย</li>
+	
   > เช่น เรารับค่ามาแล้ว สามารถสั่ง print ได้เลย
   
 ```python
->>> print(64)
-64
->>> print(2564)
-2564
+>>> print(input())
+>>> python
+python 
+	
+>>> print(int(input()))
+>>> 500
+500
+
+>>> print(float(input()))
+>>> 25.64
+25.64
 ```
   
-  <li>List</li>
-  <li>Tuple</li>
+  <li>รับค่าแล้วนำไปเก็บเข้าตัวแปร</li>
+	
+  > คือการสร้างตัวแปรขึ้นมารับค่าที่ user input เข้ามา 
+  
+```python
+>>> number = int(input())
+>>> 200
+>>> print(number)
+200
+
+>>> float_1 = float(input())
+>>> 11.12
+>>> float_2 = float(input())
+>>> 11.50
+>>> ans = float_1 + float_2
+>>> print(ans)
+22.62
+```
+
+## Output
+	print() เป็นฟังก์ชันที่ใช้แสดงผล output ของ python สามารถแสดงผลค่าของตัวแปรหรือค่าต่าง ๆ ได้ตามต้องการ
+<ul>
+  <li>print string</li>
+	
+  > ใช้เครื่องหมาย " " หรือ ' '
+  
+```python
+>>> print("สู้ๆ")
+สู้ๆ
+	
+>>> print("python สนุกมากกก")
+python สนุกมากกก
+```
+  
+  <li>print int</li>
+	
+  > ไม่มีเครื่องหมาย ' ' หรือ " " แต่ถ้าจะ print รวมกับ string สามารถใช้ %d แล้วใส่ %(ตัวแปร / ค่าคงที่) ตามหลังข้อความ 
+  
+```python
+>>> print(520) 
+520
+	
+>>> print(930)
+930
+	
+>>> print("%d" %500)
+500
+	
+>>> ans = 721 
+>>> print("You are my %d" %ans)
+You are my 721
+```
+	
+<li>print float</li>
+	
+  > ไม่มีเครื่องหมาย ‘ ‘ หรือ “ “ แต่ถ้าจะ print รวมกับ string สามารถใช้ %f แล้วใส่ %(ตัวแปร / ค่าคงที่) ตามหลังข้อความ 
+  
+```python
+>>> var = 3.143432
+	
+>>> print(var)
+3.143432
+
+>>> print("Is not pi? %f" %var)
+Is not pi? 3.143432
+```
  </ul>
