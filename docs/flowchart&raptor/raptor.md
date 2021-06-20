@@ -4,7 +4,7 @@
 
 ## การติดโปรแกรม Raptor Flowchart ในระบบปฏิบัติการ Windows
 <ol>
-<li>ไปที่ลิงก์ https://raptor.martincarlisle.com/</li>
+<li>ไปที่ลิงก์ <a href="https://raptor.martincarlisle.com/">Raptor Flowchart</a></li>
 <li>เลื่อนลงไปที่ Download RAPTOR แล้วกด Download latest version</li>
 <li>กด next</li>
 <li>เลือก folder ที่จะติดตั้งโปรแกรมแล้วกด next</li>
@@ -14,7 +14,7 @@
 </ol>
 
 ## การติดโปรแกรม Raptor Flowchart ในระบบปฏิบัติการ MacOS
-ให้ใช้เว็บไซต์ Lucid Chart แทน โดยเข้าได้ที่เว็บ www.lucidchart.com/ สมัครสมาชิกและล็อกอินเข้าสู่ระบบ (จะมีการสอนใช้เว็บไซต์แยกเป็นรายกลุ่มไป)
+ให้ใช้เว็บไซต์ Lucid Chart แทน โดยเข้าได้ที่เว็บไซต์ <a href="https://www.lucidchart.com/">Lucidchart</a> สมัครสมาชิกและล็อกอินเข้าสู่ระบบ (จะมีการสอนใช้เว็บไซต์แยกเป็นรายกลุ่มไป)
 
 ## ทำความรู้จักกับ Raptor
 > เรามาทำความรู้จักกับ Raptor กันซักหน่อยดีกว่าว่ามีแนวทางการใช้อะไรบ้าง แต่ว่าก่อนอื่นเลย Raptor จะบังคับให้เซฟไฟล์ก่อน หรือถ้าไม่แจ้งเตือนอะไร เราก็จะเซฟไฟล์ไว้ก่อนอยู่ดี
