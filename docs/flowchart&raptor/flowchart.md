@@ -13,11 +13,19 @@ Flowchart หรือ ผังงาน คือ แผนผัง(Diagram) 
 <ol>
 <li><b>Beginning block :</b> วาดลงไปเป็นอันแรกเลยของไดอะแกรม ใช้แสดงถึงจุดเริ่มต้นของ Flowchart</li>
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/748543026191925360/855364569492488242/flowchart1.png"
+<img src="./img/flowchart1.png"
      style="width: 15vw;" /><br>
 </p>
 <li>Termination block: วาดเป็นจุดสุดท้ายของไดอะแกรม ใช้แสดงถึงจุดสิ้นสุดของ Flowchart</li>
+<p align="center">
+<img src="./img/flowchart3.png"
+     style="width: 15vw;" /><br>
+</p>
 <li>Input/Output (data) block: แสดงถึงขั้นตอนที่มีการ รับข้อมูลเข้า หรือ ส่งข้อมูลออก เช่นการ กรอกชื่อ</li>
+<p align="center">
+<img src="./img/flowchart2.png"
+     style="width: 15vw;" /><br>
+</p>
 <li>Process block: เป็นสัญลักษณ์ที่ใช้แทนขั้นตอนที่เป็นกระบวนการทำงาน ประมวลผล หรือการทำอะไรบางอย่างกับข้อมูล เช่นการเอาตัวเลขไปคำนวน</li>
 <li>Decision block: เป็นสัญลักษณ์ที่ใช้เมื่อมีการตัดสินใจหรือทางเลือกเกิดขึ้น แบ่งได้เป็น
 <ul>

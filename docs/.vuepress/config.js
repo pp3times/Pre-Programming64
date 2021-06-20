@@ -35,7 +35,9 @@ module.exports = {
       {
         title: "Flowchart",
         collapsable: true,
-        children: ["flowchart&raptor/flowchart.md"],
+        children: [
+          "flowchart&raptor/flowchart.md"
+        ],
       },
       {
         title: "PEP8",
