@@ -44,7 +44,7 @@ module.exports = {
         title: "PEP8",
         collapsable: true,
         children: [
-          // "pep8.md"
+          "pep8.md"
         ],
       },
       {
