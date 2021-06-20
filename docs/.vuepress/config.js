@@ -55,6 +55,7 @@ module.exports = {
           "datatype&IO/inout.md",
           "datatype&IO/assign.md",
           "datatype&IO/stringformat.md",
+          "datatype&IO/escapesequence.md",
         ],
       },
 
