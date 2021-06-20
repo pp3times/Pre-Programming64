@@ -30,11 +30,27 @@ Flowchart หรือ ผังงาน คือ แผนผัง(Diagram) 
 <li>Decision block: เป็นสัญลักษณ์ที่ใช้เมื่อมีการตัดสินใจหรือทางเลือกเกิดขึ้น แบ่งได้เป็น
 <ul>
 <li>ตัดสินใจว่าใช่หรือไม่ใช่</li>
+<p align="center">
+<img src="./img/flowchart5.png"
+     style="width: 20vw;" /><br>
+</p>
 <li>มีทางเลือกหลางทางเลือก</li>
+<p align="center">
+<img src="./img/flowchart6.png"
+     style="width: 20vw;" /><br>
+</p>
 </ul>
 </li>
 <li>Connector: ใช้เชื่อมส่วนหนึ่งของ Flowchart กับอีกส่วน ใช้ในกรณีมีเส้นที่เชื่อมเยอะเกินไป แล้วดูยุ่งเหยิง</li>
+<p align="center">
+<img src="./img/flowchart7.png"
+     style="width: 20vw;" /><br>
+</p>
 <li>Flow line: ใช้ในการบอกลำดับการทำงาน จากขั้นหนึ่งไปสู่อีกขั้นหนึ่ง</li>
+<p align="center">
+<img src="./img/flowchart4.png"
+     style="width: 20vw;" /><br>
+</p>
 </ol>
 
 ---

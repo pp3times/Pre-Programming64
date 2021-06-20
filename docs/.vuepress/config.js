@@ -33,7 +33,7 @@ module.exports = {
         children: ["ejudge.md"],
       },
       {
-        title: "Flowchart",
+        title: "Flowchart&Raptor",
         collapsable: true,
         children: [
           "flowchart&raptor/flowchart.md"
