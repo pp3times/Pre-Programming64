@@ -33,6 +33,11 @@ module.exports = {
         children: ["ejudge.md"],
       },
       {
+        title: "Flowchart",
+        collapsable: true,
+        children: ["flowchart&raptor/flowchart.md"],
+      },
+      {
         title: "PEP8",
         collapsable: true,
         children: ["pep8.md"],
