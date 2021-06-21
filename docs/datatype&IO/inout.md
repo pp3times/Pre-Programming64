@@ -17,7 +17,7 @@
 >>> print(type(var)) 
 <class 'str'> #print ชนิดของข้อมูลที่อยู่ในตัวแปร var
 
->>> var = int( input() 
+>>> var = int(input())
 520 #user input ข้อมูลเข้ามา 
 >>> print(var) 
 520 #print ค่าของ var 
