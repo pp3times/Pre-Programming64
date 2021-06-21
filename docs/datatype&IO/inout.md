@@ -4,21 +4,21 @@
 
   Input คือ การรับค่าจาก User โดย default ข้อมูลจะเป็นชนิด string
 แต่ถ้าต้องการเปลี่ยนเป็นข้อมูลชนิดอื่น สามารถนำชนิดของข้อมูลมาครอบ input() ได้เลย
-	* ข้อความ ⇒ input()
+  * ข้อความ ⇒ input()
   * จำนวนเต็ม ⇒  int(input()) 
   * จำนวนทศนิยม ⇒ float(input())
-  * ค่าความจริง ⇒ bool(input())
+  * ค่าความจริง ⇒ bool(input())<br>
 สามารถตรวจสอบชนิดข้อมูลโดยใช้ type()
 ```python
 >>> var = input()
-520 #user input vaja 
+520 #user input ข้อมูลเข้ามา 
 >>> print(var) 
 520 #print ค่าของ Var 
 >>> print(type(var)) 
 <class 'str'> #print ชนิดของข้อมูลที่อยู่ในตัวแปร var
 
 >>> var = int( input() 
-520 #user input Bayan 
+520 #user input ข้อมูลเข้ามา 
 >>> print(var) 
 520 #print ค่าของ var 
 >>> print(type(var)) 
@@ -111,7 +111,7 @@ You are my 721
 	
 <li>print float</li>
 	
-  > ไม่มีเครื่องหมาย ‘ ‘ หรือ “ “ แต่ถ้าจะ print รวมกับ string สามารถใช้ %f แล้วใส่ %(ตัวแปร / ค่าคงที่) ตามหลังข้อความ 
+  > ไม่มีเครื่องหมาย ' ' หรือ " " แต่ถ้าจะ print รวมกับ string สามารถใช้ %f แล้วใส่ %(ตัวแปร / ค่าคงที่) ตามหลังข้อความ 
   
 ```python
 >>> var = 3.143432
