@@ -357,4 +357,4 @@ Pylint จะเตือน เพราะน้องส่งตัวแป
 
 ---
 **Reference**
-- EJudge Pylint
+- \<e>Judge Pylint
