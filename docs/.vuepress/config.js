@@ -42,13 +42,13 @@ module.exports = {
           "flowchart&raptor/raptor.md",
         ],
       },
-      // {
-      //   title: "PEP8",
-      //   collapsable: true,
-      //   children: [
-      //     "pep8.md"
-      //   ],
-      // },
+      {
+        title: "PEP8",
+        collapsable: true,
+        children: [
+          "pep8.md"
+        ],
+      },
       // {
       //   title: "Datatype & I/O",
       //   collapsable: true,
