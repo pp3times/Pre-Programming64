@@ -66,14 +66,14 @@ python
   
 ```python
 >>> number = int(input())
->>> 200
+200
 >>> print(number)
 200
 
 >>> float_1 = float(input())
->>> 11.12
+11.12
 >>> float_2 = float(input())
->>> 11.50
+11.50
 >>> ans = float_1 + float_2
 >>> print(ans)
 22.62
