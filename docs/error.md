@@ -8,7 +8,7 @@
 
 สาเหตุของ error ส่วนใหญ่จะมาจากที่เราอาจจะเขียนไม่ตรงกับรูปแบบของภาษา มีอะไรผิดพลาดกับสิ่งที่เราเขียน เป็นต้น เนื่องจาก Python ทำงานแบบ Interpreter เมื่อเกิด error ขึ้น ตัว Interpreter จะหยุดการทำงาน และรายงานทันที วันนี้พี่ไม่ได้จะมาสอนวิธีการรับมือกับ error แต่จะมาสอนให้น้อง ๆ รู้จักกับ error แบบต่าง ๆ เพื่อที่จะแก้ไขโค้ดของเราให้ทำงานได้ปกติ
 
-<hr style="border:1px solid gray"> </hr>
+---
 
 ## TypeError
 
@@ -21,6 +21,8 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for /: 'str' and 'int'
 ```
 
+---
+
 ## ValueError
 
 เกิดเมื่อค่าที่จะใส่ในฟังก์ชัน(argument) ของฟังก์ชัน เป็นชนิดที่ไม่ตรงกับความต้องการ
@@ -31,6 +33,8 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: invalid literal for int() with base 10: 'abcde'
 ```
+
+---
 
 ## NameError
 เกิดเมื่อหา object หรือตัวแปรที่เราเรียกใช้ไม่เจอ ส่วนมากเกิดจากไม่ได้ประกาศตัวแปรไว้ก่อน
@@ -44,6 +48,8 @@ Traceback (most recent call last):
 NameError: name 'num_1' is not defined
 ```
 
+---
+
 ## ZeroDivisionError
 เกิดเมื่อมีการหาร 0 เกิดขึ้น น้องๆน่าจะรู้กันอยู่แล้วว่า ตามหลักคณิตศาสตร์นั้น ไม่สามารถทำการหารด้วย 0 ได้
 
@@ -53,6 +59,8 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ZeroDivisionError: division by zero
 ```
+
+---
 
 ## KeyboardInterrupt
 เกิดเมื่อ user ทำการป้อนคำสั่ง interrupt ก่อนที่โค้ดจะทำการประมวลผลเสร็จ (ปกติแล้วการป้อนคำสั่ง interrupt คือการกด Ctrl + C สามารถนำไปใช้กันได้นะ)
@@ -64,6 +72,8 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 KeyboardInterrupt
 ```
+
+---
 
 ---
 
@@ -79,6 +89,8 @@ Traceback (most recent call last):
 ImportError: cannot import name 'square' from 'math'
 ```
 
+---
+
 ## IndexError
 เมื่อเข้าถึง item ใน index ที่ไม่มีอยู่จริง
 Index จะได้เรียนในหัวข้อของ string slicing และ list
@@ -93,6 +105,8 @@ IndexError: list index out of range
 
 
 > จะเห็นว่า ใน box มีสิ่งของอยู่ 3 ชิ้น ในตำแหน่งที่ 0, 1, 2 แต่พี่พยายามจะเรียกค่าของตำแหน่งที่ 5 ที่ไม่มีอยู่จริง จึงเกิด IndexError ขึ้น
+
+---
 
 ## KeyError
 เกิดขึ้นเมื่อ key ที่เราเรียกใช้ไม่มีอยู่ใน dictionary Key จะได้เรียนในเรื่อง dict ในวิชา PSIT
