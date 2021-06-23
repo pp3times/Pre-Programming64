@@ -42,7 +42,7 @@
 > <span style="color: red"><strong>ข้อควรระวัง!</strong></span>
 > 
 > สำหรับเลขทศนิยมที่อยู่ใน single quote หรือ double quote จะถูกนับว่าเป็นข้อมูลประเภท string เช่น 1.12 และ "1.12"<br>
->   1.12 เป็น int<br>
+>   1.12 เป็น float<br>
 >   "1.12" เป็น str<br>
 > ดังนั้น   1.12 ≠ "1.12"
 ### Boolean (bool)
