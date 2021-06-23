@@ -14,16 +14,16 @@ module.exports = {
     // repoLabel: 'Pre-Programming64 Repo',
 
     // Edit MD on github
-//     repo: "pp3times/Pre-Programming64",
-//     docsRepo: "pp3times/Pre-Programming64",
-//     repoLabel: "PrePro64",
-//     docsDir: "docs",
-//     editLinks: true,
-//     editLinkText: "✏️ Edit Post !",
+    // repo: "pp3times/Pre-Programming64",
+    // docsRepo: "pp3times/Pre-Programming64",
+    // repoLabel: "PrePro64",
+    // docsDir: "docs",
+    // editLinks: true,
+    // editLinkText: "✏️ Edit Post !",
 
     lastUpdated: "🕑",
     // Navigation Bar
-    nav: [{ text: "Ejudge", link: "https://ejudge.it.kmitl.ac.th/" }],
+    nav: [{ text: "<e>Judge", link: "https://ejudge.it.kmitl.ac.th/" }],
 
     // Sidebar
     sidebar: [
