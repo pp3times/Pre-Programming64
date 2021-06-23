@@ -43,24 +43,25 @@ module.exports = {
         ],
       },
       {
-        title: "PEP8",
+        title: "PEP8 & ERROR",
         collapsable: true,
         children: [
-          "pep8.md"
+          "pep8.md",
+          "error.md"
         ],
       },
-      // {
-      //   title: "Datatype & I/O",
-      //   collapsable: true,
-      //   children: [
-      //     "datatype&IO/datatype.md",
-      //     "datatype&IO/inout.md",
-      //     "datatype&IO/assign.md",
-      //     "datatype&IO/stringformat.md",
-      //     "datatype&IO/escapesequence.md",
-      //     "datatype&IO/arithmetic.md",
-      //   ],
-      // },
+      {
+        title: "Datatype & I/O",
+        collapsable: true,
+        children: [
+          "datatype&IO/datatype.md",
+          "datatype&IO/inout.md",
+          "datatype&IO/assign.md",
+          "datatype&IO/stringformat.md",
+          "datatype&IO/escapesequence.md",
+          "datatype&IO/arithmetic.md",
+        ],
+      },
     ],
 
     // Search bar
