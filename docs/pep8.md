@@ -37,9 +37,9 @@ def main():
   """Function Docstring"""
   print("Hello Prepro64")
 main()
-# Final new line
-```
 
+```
+ดังตัวอย่างด้านบนบรรทัดที่ 7 จะเป็นบรรทัดที่เป็น final newline ที่เราจะต้องเว้นไว้ให้ถูกหลัก PEP8
 ---
 
 ## Invalid Data Type
