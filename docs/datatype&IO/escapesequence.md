@@ -23,7 +23,7 @@ print("I Love \"Python\".")
 
 ---
 
-> Escape character ตัวอื่นๆ ใน python
+### Escape character ตัวอื่นๆ ใน python
 
 Escape sequence | หน้าที่ |
 -|-|
