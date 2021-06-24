@@ -10,6 +10,22 @@
 
 ---
 
+## SyntaxError
+
+เกิดเมื่อเราเขียนผิดรูปแบบไวยากรณ์ของภาษา Python เช่น
+
+```python
+>>> print("15')
+  File "<stdin>", line 1
+    print("15')
+              ^
+SyntaxError: EOL while scanning string literal
+```
+
+> อย่างเช่นตัวอย่าง เราทำการเปิด string ด้วย double quote แต่ปิดด้วย single quote เมื่อเปิดด้วย double quote ตัวinterpreterจะทำการหาตัวปิดที่เหมือนกัน นั่นก็คือ double quote แต่ไม่เจอ ทำให้ไม่สามารถปิด string ได้ จึงเกิด SyntaxError ขึ้น
+
+---
+
 ## TypeError
 
 เกิดขึ้นเมื่อ object หรือตัวแปรได้รับการกระทำกับ operator หรือฟังก์ชัน โดยชนิดไม่ตรงกับความต้องการ หรือไม่สามารถดำเนินการได้ เช่น "a" / 3 นั้นไม่สามารถกระทำได้เนื่องจาก string ไม่สามารถนำมาดำเนินการกับเครื่องหมายหาร (" / ") ได้
@@ -75,8 +91,6 @@ KeyboardInterrupt
 
 ---
 
----
-
 # สำหรับ Error อื่นๆ ที่ยังไม่เรียนกัน
 
 ## ImportError
@@ -91,6 +105,17 @@ ImportError: cannot import name 'square' from 'math'
 
 ---
 
+## IndentationError
+เกิดเมื่อเราทำการเว้น indentation ไม่ถูกต้อง
+
+```python
+if 1 < 0:
+print("1 < 0 is true")
+```
+
+> โค้ดตัวอย่าง จะเกิด IndentationError ขึ้น เนื่องจาก บรรทัดที่ 2 ต้องทำการเว้น indentation ให้อยู่ใน if
+
+---
 ## IndexError
 เมื่อเข้าถึง item ใน index ที่ไม่มีอยู่จริง
 Index จะได้เรียนในหัวข้อของ string slicing และ list
