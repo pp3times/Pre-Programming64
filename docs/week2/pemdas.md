@@ -36,7 +36,7 @@
 2. ** or Exponential        # ยกกำลัง
 3. *  or Multiplication     # คูณ
    /  or Division           # หาร
-   //// or Floor division   # หารไม่เอาเศษ
+   // or Floor division     # หารไม่เอาเศษ
    %  or Modulo             # หารเอาเศษ
 4. +  or Addition           # บวก
    -  or Subtraction        # ลบ
