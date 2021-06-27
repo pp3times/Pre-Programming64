@@ -4,7 +4,7 @@
 
 **PEMDAS**   เป็นตัวย่อของลำดับขั้นการดำเนินการทางคณิตศาสตร์ ประกอบด้วย
 
-<span style="font-size:28;">P</span> - Parentheses   **หรือ**   วงเล็บ
+<span style="font-size:50;">P</span> - Parentheses   **หรือ**   วงเล็บ
 ```python
 """           PEMDAS            """
 1. () or Parentheses        # วงเล็บ
