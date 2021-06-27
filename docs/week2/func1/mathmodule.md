@@ -57,34 +57,22 @@ math.pow(x, y)
 > ```
 
 
-- ```การยกกำลัง``` หากต้องการหาเลขยกกำลัง (pow) สามารถทำได้โดย
+- ```การหาราก``` หากต้องการหาราก (sqrt) สามารถทำได้โดย
 
 ```python
->>> max(21, 22, 23)
-23
->>> min(21, 22, 23)
-21
+import math
+
+math.sqrt(x)
 ```
 
-- ```chr()``` ฟังก์ชันที่เกี่ยวกับรหัส ascii ใช้สำหรับการเปลี่ยนเลขฐานสิบเป็นตัวอักษรหรือสัญลักษณ์ตามตาราง ascii
+โดย math.sqrt(x) นั้นจะส่งค่าออกมาเป็น float เช่น
 
 ```python
->>> chr(65)
-'A'
->>> chr(97)
-'a'
+import math
+
+math.sqrt(4) #ได้ผลออกมาเป็น 2.0
 ```
 
-- ```ord()``` ฟังก์ชันที่เกี่ยวกับรหัส ascii ใช้สำหรับการเปลี่ยนตัวอักษรหรือสัญลักษณ์เป็นเลขฐานสิบตามตาราง ascii
+&nbsp;&nbsp;&nbsp;&nbsp;โดยใน Math module นั้นยังมีฟังก์ชันอีกมากมายให้ใช้งาน เช่น การเปลี่ยนมุมจาก degree เป็น radiant การหาค่าของมุมในตรีโกณมิติ ลอการิทึม ค.ร.น. ห.ร.ม. และอีกต่าง ๆ มากมาย โดยสามารถไปอ่าน documentation ได้ที่ [Python mathematical functions](https://www.w3schools.com/python/module_math.asp)  
 
-```python
->>> ord('A')
-65
->>> ord('a')
-97
-```
-
-> ดูสัญลักษณ์ในตาราง ascii ได้ที่นี่ [HTML ASCII Reference](https://www.w3schools.com/charsets/ref_html_ascii.asp)
-
-สามารถศึกษาคำ Built-in Function อื่นๆได้ที่เว็บ [Built-in Functions — Python 3.9.5 documentation](https://docs.python.org/3/library/functions.html)
 
