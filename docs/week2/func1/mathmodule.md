@@ -58,6 +58,7 @@ math.pow(x, y)
 > pow(5, 2.0) #ได้ผลออกมาเป็น 25.0
 > ```
 
+<br>
 
 - ```การหาราก``` หากต้องการหาราก (sqrt) สามารถทำได้โดย
 
@@ -74,6 +75,8 @@ import math
 
 math.sqrt(4) #ได้ผลออกมาเป็น 2.0
 ```
+
+<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;โดยใน Math module นั้นยังมีฟังก์ชันอีกมากมายให้ใช้งาน เช่น การเปลี่ยนมุมจาก degree เป็น radiant การหาค่าของมุมในตรีโกณมิติ ลอการิทึม ค.ร.น. ห.ร.ม. และอีกต่าง ๆ มากมาย โดยสามารถไปอ่าน documentation ได้ที่ [Python mathematical functions](https://www.w3schools.com/python/module_math.asp)  
 
