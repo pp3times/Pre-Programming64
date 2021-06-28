@@ -62,6 +62,13 @@ module.exports = {
           "datatype&IO/escapesequence.md",
         ],
       },
+      {
+        title: "PEMDAS",
+        collapsable: true,
+        children: [
+          "week2/pemdas.md"
+        ],
+      },
     ],
 
     // Search bar
