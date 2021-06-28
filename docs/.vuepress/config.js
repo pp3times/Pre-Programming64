@@ -69,6 +69,16 @@ module.exports = {
           "week2/pemdas.md"
         ],
       },
+      {
+        title: "Function",
+        collapsable: true,
+        children: [
+          "week2/func1/basicfunc.md",
+          "week2/func1/builtin.md",
+          "week2/func1/mathmodule.md",
+          "week2/func1/stringmethod.md",
+        ],
+      },
     ],
 
     // Search bar
