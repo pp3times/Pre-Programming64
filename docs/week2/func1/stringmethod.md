@@ -47,14 +47,14 @@ Pre pro
 >>> s = "Pre Pro" 
 >>> s.capitalize()
 >>> print(s)
-Pre PRO #Output เป็นแบบเดิมเพราะว่า ไม่มีตัวแปรใดมารองรับค่าทำให้ capatilize ไม่ส่งผลอะไรกับตัวแปร s
+Pre PRO #Output เป็นแบบเดิมเพราะว่า ไม่มีตัวแปรใดมารองรับค่าทำให้ capitalize ไม่ส่งผลอะไรกับตัวแปร s
 ```
 
 - ```capitalize()``` เป็นฟังก์ชันที่ทำให้ทำให้ตัวอักษรตัวแรกเป็นตัวพิมพ์ใหญ่ ที่เหลือตัวพิมพ์เล็ก
 
 ```python
 >>> s = "heLlo WOrlD"
->>> s = s.capatilize()
+>>> s = s.capitalize()
 >>> print(s)
 Hello world
 ```
