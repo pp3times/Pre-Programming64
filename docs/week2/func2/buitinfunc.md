@@ -154,7 +154,7 @@ def main():
     """main function"""
     input_1 = int(input())
     input_2 = int(input())
-    ans = addnumber(input_1, input2)
+    ans = addnumber(input_1, input_2)
     print(ans)
 main() 
 ```
