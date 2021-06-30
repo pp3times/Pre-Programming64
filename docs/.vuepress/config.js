@@ -77,6 +77,7 @@ module.exports = {
           "week2/func1/builtin.md",
           "week2/func1/mathmodule.md",
           "week2/func1/stringmethod.md",
+          "week2/func2/buitinfunc.md",
         ],
       },
     ],
