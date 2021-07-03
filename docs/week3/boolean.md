@@ -124,7 +124,7 @@ print(int(False)) # 0
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;เมื่อเราแปลง boolean expression ด้วยฟังก์ชัน int() จะพบว่า int(True) จะได้ค่าเป็น 1 และ int(False) จะได้ค่าเป็น 0 เพราะว่าในภาษา Python นั้น boolean จะถูกพิจารณาเป็นข้อมูลชนิด Numeric ได้ <br>
-ซึ่งหมายความว่าเราสามารถใช้ boolean ในการคำนวณทางคณิตศาสตร์ได้ ตามที่น้องเคยเรียนไปในหัวข้อ **Arithmetic Operators** ในเรื่องของการคูณด้วย boolean
+&nbsp;&nbsp;&nbsp;&nbsp;ซึ่งหมายความว่าเราสามารถใช้ boolean ในการคำนวณทางคณิตศาสตร์ได้ ตามที่น้องเคยเรียนไปในหัวข้อ **Arithmetic Operators** ในเรื่องของการคูณด้วย boolean
 
 ### ตัวอย่างการแปลง boolean เป้น integer
 
