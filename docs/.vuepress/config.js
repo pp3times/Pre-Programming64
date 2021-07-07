@@ -86,7 +86,7 @@ module.exports = {
         children: [
           "week3/boolean.md",      // 5 jul 2021
           "week3/condition.md",    // 5 jul 2021
-          // "week3/chainandnest.md", // 7 jul 2021
+          "week3/chainandnest.md", // 7 jul 2021
         ],
       },
     ],
