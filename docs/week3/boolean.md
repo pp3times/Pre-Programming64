@@ -51,13 +51,12 @@ not value5 # return True ถ้าเป็นเท็จ, return False ถ้�
 
 > โดยผลของการดำเนินการทางตรรกศาสตร์ทั้งหมดเป็นไปตามตารางด้านล่าง
 
-A| B| A and B| A or B|
+A | B |
+True |True|
+True |False|
+False |True|
+False |False|
 
-A | B | A and B | A or B |
-True | True | True | True |
-True | False | False | True |
-False | True | False | True |
-False | False | False | False |
 
 
 
