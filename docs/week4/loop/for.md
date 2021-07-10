@@ -2,7 +2,7 @@
 
 ---
 
-## What is while loop?
+## What is For loop?
 
 &nbsp;&nbsp;&nbsp;&nbsp;For Loop คือการทำงานแบบวนซ้ำที่ทำงานโดยที่รู้จำนวนรอบการทำงานที่แน่นอน แตกต่างจาก while loop ตรงที่ while loop จะทำงานโดยที่เราไม่รู้จำนวนรอบการทำงานที่แน่นอน
 
