@@ -89,6 +89,15 @@ module.exports = {
           "week3/chainandnest.md", // 7 jul 2021
         ],
       },
+      {
+        title: "Iteration",
+        collapsable: true,
+        children: [
+          "week4/loop/while.md",      // 12 jul 2021
+          // "week4/loop/for.md",        // 13 jul 2021
+          // "week4/loop/nestedloop.md", // 14 jul 2021
+        ],
+      },
     ],
 
     // Search bar
