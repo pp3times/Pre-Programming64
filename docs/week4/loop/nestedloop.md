@@ -25,7 +25,7 @@ for i in "abc":
 ### ตัวอย่างที่ 2
 
 ```python
-for i in range(1. 4):
+for i in range(1, 4):
     for j in range(1, 4):
         print((j, i), end=" ")
     print()
