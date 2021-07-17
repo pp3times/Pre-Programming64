@@ -13,26 +13,32 @@
 &nbsp;&nbsp;&nbsp;&nbsp;โดย ```statement``` คือจุดที่จะนำค่าที่วนจากลูปมาดำเนินการอะไรบางอย่าง ```i``` คือตัวแปรที่แทนค่าของลูปในรอบนั้น ซึ่งจะนำไปดำเนินการใน ```statement``` ต่อไป
 
 
-> **Tips** built-in function ```len()``` นอกจากจะหาความยาวของ ```string``` ได้ ยังสามารถหาขนาดของ ```list``` ได้อีกด้วย ดังรูป
-> 
-> ```python
-> mylist = ["a", "b", "c", "d"]
-> num = len(mylist)
-> print(num) # 4
-> ```
+> ```mylist``` คือ ```list``` ที่จะนำมาวนเพื่ออสร้าง ```list``` ใหม่ ซึ่งอาจจะเป็นการระบุช่วงข้อมูลโดยใช้คำสั่ง ```range``` ก็ได้เช่นกัน
 
-
-&nbsp;&nbsp;&nbsp;&nbsp;และเรายังสามารถวนค่าข้อมูลใน ```list``` ด้วยคำสั่ง ```range``` ได้โดยการใส่ ขนาดของ ```list``` ใน ```range()``` และใส่ค่า i ลงไปในวงเล็บสี่เหลี่ยม (square bracket) เพื่อดึงค่าของข้อมูลจากตำแหน่งแรกจนถึงตำแหน่งสุดท้าย
+### ตัวอย่างการใช้ List Comprehension
 
 ```python
-mylist = ["a", "b", "c", "d"]
-for i in range(len(mylist)):
-    print(i, mylist[i])
+list_of_1_to_5 = [i for i in  range(1, 6)]
+print(list_of_1_to_5) # [1, 2, 3, 4, 5]
+```
 
-# 0 a
-# 1 b
-# 2 c
-# 3 d
+---
+
+## List Comprehension with condition
+
+&nbsp;&nbsp;&nbsp;&nbsp;เราสามารถใส่เงื่อนไขในการเลือกค่ามาสร้าง ```list``` ใหม่ได้ด้วยเช่นกัน โดยการใส่คำสั่ง ```if``` และตามด้วยเงื่อนไขในการเช็ค ต่อท้ายในจุดที่ระบุช่วงข้อมูล
+
+```python
+[statement for i in  mylist if expression]
+```
+
+### ตัวอย่างการใช้ List Comprehension with condition
+
+```python
+num_1 = [1, 2, 3, 4, 5, 6]
+num_2 = [i for i in  num_1 if i % 2 == 0]
+print(num_1) # [1, 2, 3, 4, 5, 6]
+print(num_2) # [2, 4, 6]
 ```
 
 ---
