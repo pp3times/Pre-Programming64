@@ -2,7 +2,7 @@
 
 ---
 
-## What is For list?
+## What is list?
 
 &nbsp;&nbsp;&nbsp;&nbsp;```list``` เป็นชนิดของข้อมูลที่ใช้เก็บข้อมูลหลาย ๆ ค่ามาไว้ในข้อมูลชุดเดียว
 โดยใน python นอกจาก List ยังมี Tuple, Set และ Dictionary ที่เป็น built-in data types สำหรับการเก็บข้อมูลเป็นชุด แต่ในคอร์ส pre-programming นี้ เราจะไม่เน้นเรื่องนี้ พี่ๆ แค่จะแนะนำน้องๆ ให้รู้จักกับ List กันคร่าว ๆ กันก่อน
