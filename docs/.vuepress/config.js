@@ -99,6 +99,18 @@ module.exports = {
           "week4/strslicing.md",
         ],
       },
+      {
+        title: "List",
+        collapsable: true,
+        children: [
+          "week5/day1/list.md",
+          "week5/day1/listadd.md",
+          "week5/day1/listremove.md",
+          // "week5/day2/listother.md",
+          // "week5/day2/listcomprehension.md",
+          // "week5/day2/loopthroughlist.md",
+        ],
+      },
     ],
 
     // Search bar
