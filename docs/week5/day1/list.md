@@ -75,28 +75,28 @@ mylist[start:stop:step]
 ### ตัวอย่างการทำงานที่ 1
 
 ```python
-mylist["a", "b", "c", "d", "e", "f", "g", "h"]
+mylist = ["a", "b", "c", "d", "e", "f", "g", "h"]
 print(mylist[0:3]) # ['a', 'b', 'c']
 ```
 
 > แต่เพราะ ค่า default ของ start คือ 0 อยู่แล้ว เราจะไม่ใส่ก็ได้ ดังนี้
 
 ```python
-mylist["a", "b", "c", "d", "e", "f", "g", "h"]
+mylist = ["a", "b", "c", "d", "e", "f", "g", "h"]
 print(mylist[:3]) # ['a', 'b', 'c']
 ```
 
 ### ตัวอย่างการทำงานที่ 2
 
 ```python
-mylist["a", "b", "c", "d", "e", "f", "g", "h"]
+mylist = ["a", "b", "c", "d", "e", "f", "g", "h"]
 print(mylist[5:]) # ['f', 'g', 'h']
 ```
 
 ### ตัวอย่างการทำงานที่ 3
 
 ```python
-mylist["a", "b", "c", "d", "e", "f", "g", "h"]
+mylist = ["a", "b", "c", "d", "e", "f", "g", "h"]
 print(mylist[::2]) # ['a', 'c', 'e', 'g']
 ```
 
